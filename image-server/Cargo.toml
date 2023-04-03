@@ -1,0 +1,19 @@
+[package]
+name = "image-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.6.12"
+axum-macros = "0.3.7"
+bytes = "1.4.0"
+color-eyre = "0.6.2"
+directories = "5.0.0"
+futures = "0.3.28"
+hyper = "0.14.25"
+reqwest = { version = "0.11.16", features = ["stream"] }
+tokio = { version = "1.27.0", features = ["full"] }
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
